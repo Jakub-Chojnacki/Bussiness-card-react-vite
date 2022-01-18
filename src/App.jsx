@@ -7,11 +7,13 @@ import Interests from './components/Interests'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <div className="card">
       <Info />
       <About/>
       <Interests/>
       <Footer/>
+      </div>
     </div>
   )
 }

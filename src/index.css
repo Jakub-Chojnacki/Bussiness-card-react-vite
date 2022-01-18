@@ -4,3 +4,97 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: 'Inter', 'sans-serif';
+  background-color :#23252C;
+}
+
+a{
+  color: #374151;
+  text-decoration: none;
+}
+h2{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+.card{
+  background: #1A1B21;
+  border-radius: 12px;
+  max-width: 300px;
+}
+/* INFO */
+.info-container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap: 0.5em;
+
+ 
+}
+.info-img{
+  width: 100%;
+  
+}
+.info-name{
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.5625rem;
+}
+.info-position{
+  font-size: 0.8rem;
+  color: #F3BF99;
+}
+.info-website{
+  font-size: 0.625rem;
+}
+.info-button {
+  display: flex;
+  padding: 0.5em 6em;
+  justify-content: center;
+  background-color: white;
+  border-radius: 4px;
+}
+.info-link {
+  font-size: 0.875rem;
+  font-weight:600;
+  display:flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.email-icon{
+  font-size: 1.2rem;
+}
+
+/* About */
+.about-container{
+  margin: 1em 0;
+  padding: 0 2rem;
+}
+.section-text {
+  color: #DCDCDC;
+  font-size: 0.650em;
+}
+/* Interests*/
+.interests-container{
+  padding: 0 2rem;
+}
+/* Footer */
+
+.footer-container{
+  background:#161619;
+  padding: 1rem;
+  color : #918E9B;
+  font-size: 1.6rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
